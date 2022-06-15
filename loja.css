@@ -6,12 +6,12 @@
 
 @font-face {
     font-family: Reboot;
-    src: url(..//CSS/Reboot.ttf);
+    src: url(css/Reboot.ttf);
 }
 
 @font-face {
     font-family: Cyberfall;
-    src: url(..//CSS/Cyberfall.otf);
+    src: url(css/Cyberfall.otf);
 }
 body{
     background: rgb(2,0,36);
