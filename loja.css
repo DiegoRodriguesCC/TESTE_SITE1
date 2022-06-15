@@ -151,7 +151,7 @@ header{
 .produtos ul{
     padding-left: 0px;
     display: flex;
-    margin-left: 45%;
+    margin-left: 400px;
 }
  
 .produtos a{
@@ -184,7 +184,7 @@ header{
 .comandos ul{
     padding-left: 0px;
     display: flex;
-    margin-left: 45%;
+    margin-left: 400px;
 }
 
 .comandos li{
