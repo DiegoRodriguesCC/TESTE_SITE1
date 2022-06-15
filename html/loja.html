@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Icomputed</title>
+    <link rel="stylesheet" href="../css/loja.css">
+    
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo"><img src="..//construção-imagem/logo.png"></div>
+            <div class="menu">
+                <nav>
+                    <a href="..//html/hadware.html">Hardware</a>
+                    <a href="..//html/perifericos.html">Periféricos</a>
+                    <a href="..//html/games.html">Games</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+        <div class="bandeira">
+            <img src="..//construção-imagem/Bandeira-do-Piaui.png" alt="">
+
+            <h1>Icomputer</h1>
+        </div>
+        <div class="img-princial"><img src="..//construção-imagem/IMG-PRINCIPAL.jpg"></div>
+        <div class="ofertasDestaque">
+                <h1>Ofertas Em Destaque Do Dia</h1>
+        </div>
+        <div id="data"></div>
+            <script>
+                date = new Date();
+                year = date.getFullYear();
+                month = date.getMonth() + 1;
+                day = date.getDate();
+                document.getElementById("data").innerHTML = day + "/" + month + "/" + year;
+            </script>
+        </div>
+
+        <div class="produtos">
+            <ul>
+                <li>
+                    <img src="../construção-imagem/placa-mae.jpg">
+                    <h5 class="card-title">Placa Mãe MSI H510M-A PRO, Intel LGA1200, mATX, DDR4</h5>
+                    <h6>R$ 757,90</h6>
+                    <a href="#" class="btn btn-primary">compra</a>
+                </li>
+                <li>
+                    <img src="..//construção-imagem/teclado.jpg">
+                    <h5 class="card-title">Teclado Mecânico Gamer Razer BlackWidow Tournament V2</h5>
+                    <h6>R$ 499,90</h6>
+                    <a href="#" class="btn btn-primary">compra</a>
+                </li>
+                <li>
+                    <img src="../construção-imagem/xbox.jpg">
+                    <h5 class="card-title">Console Microsoft Xbox Series S, 512GB, Branco - RRS-00006</h5>
+                    <h6>R$ 2.249,90</h6> 
+                    <a href="#" class="btn btn-primary">compra</a>
+                </li>
+            </ul>
+        </div>
+        <div class="comandos">
+            <ul>
+                <li>
+                    <a href="..//HTML/hadware.html"><img src="..//construção-imagem/HARDWARE.jpg" ></a>
+                </li>
+                <li>
+                    <a href="..//HTML/perifericos.html"><img src="..//construção-imagem/perifericos.png" alt=""></a>
+                </li>
+                <li>
+                    <a href="..//HTML/games.html"><img src="..//construção-imagem/GAMES.png" alt=""></a>
+                </li>
+            </ul>
+        </div>
+        <footer>
+            <div class="rodape">
+                <h2>Loja IComputer</h2>
+                <h4>Rua:Charlie Brown Junior.100</h4>
+                <h4>Tel:555-5555</h4>
+                <h4>Piaui-Teresina</h4>
+            </div>
+        </footer>
+            
+       
+        
+
+    
+</body>
+</html>
