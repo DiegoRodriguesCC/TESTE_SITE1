@@ -225,7 +225,8 @@ footer{
 
 .hadware-produtos{
     text-align: center;
-    width: 1200px;
+    width: 1000px;
+    margin-left: 11%;
     
     
 }
@@ -242,7 +243,8 @@ footer{
     padding-left: 0px;
     display: flex;
     justify-content: space-around;
-    margin-left: 15%;
+    
+    
     
     
 }
