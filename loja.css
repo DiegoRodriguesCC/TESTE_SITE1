@@ -151,7 +151,7 @@ header{
 .produtos ul{
     padding-left: 0px;
     display: flex;
-    margin-left: 400px;
+    margin-left: 450px;
 }
  
 .produtos a{
@@ -184,7 +184,7 @@ header{
 .comandos ul{
     padding-left: 0px;
     display: flex;
-    margin-left: 400px;
+    margin-left: 450px;
 }
 
 .comandos li{
@@ -232,6 +232,7 @@ footer{
     height: 300px;
     width: 600px;
     border: 4px solid rgb(0, 0, 0);
+   
 }
 
 .hadware-produtos ul{
@@ -243,8 +244,8 @@ footer{
 
 .hadware-produtos li {
     list-style: none;
+    max-width: 90%;
 
-    
 }
     
 .texto-hadware{
